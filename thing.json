@@ -1,0 +1,12 @@
+{
+  "_note": "What this instrument family IS on the bench. Authored; family_sdk_docs.py and the touch panel read it. Inputs are not listed here: each box's connectors come from its BIM part (DATABASE.server.BIM, /api/bim/parts — ports with side \"input\").",
+  "family": "DAQ",
+  "folder": "INSTRUMENT.DAQ",
+  "roles": [
+    "inputs",
+    "metering"
+  ],
+  "about": "Data acquisition and switch units: many inputs scanned into readings.",
+  "inputs": "each model's BIM part: /api/bim/parts?full=1&id=<part> — ports where side is \"input\" and domain is not \"power\"",
+  "repository": "https://github.com/LikeDotAudio/APK.plugin.instruments.VISA.DAQ.git"
+}
