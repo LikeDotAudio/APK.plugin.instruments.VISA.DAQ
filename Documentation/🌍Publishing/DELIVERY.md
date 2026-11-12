@@ -9,6 +9,7 @@ A submodule of [APK.plugin.instruments.VISA](https://github.com/LikeDotAudio/APK
 From this repository's own commits (the commit message is the record):
 
 - docs: SDK pages regenerated (ROAD-3683) (`a5c5119`)
+- wiki: lanes, README and smoke result refreshed (wiki.py + smoke.py) (`e53d270`)
 
 ## Releases
 - **Released `2.0.0`, tag `v2.0.0`** (2026-11-05, ROAD-3452, the owner's V2) — no SDK pin; every manifest says 2.0.0; GitHub release `v2.0.0`.
