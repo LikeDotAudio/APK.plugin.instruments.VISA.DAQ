@@ -20,7 +20,7 @@ From the BIM part [`keysight/daq970a`](/api/bim/parts?full=1&id=keysight/daq970a
 
 | Terminal | Connector | Domain | Count | Signal |
 |---|---|---|---:|---|
-| SLOTS 100, 200, 300 | module slot | signal | 3 | plug-in module slot (e.g. DAQM901A 20-channel multiplexer) |
+| SLOTS 100, 200, 300 | MODULE-SLOT | signal | 3 | plug-in module slot (e.g. DAQM901A 20-channel multiplexer) |
 
 ### Connections (control and network)
 
@@ -30,9 +30,9 @@ From the BIM part [`keysight/daq970a`](/api/bim/parts?full=1&id=keysight/daq970a
 | LAN | RJ45 | network | 1 | Gigabit LAN, web interface |
 | USB |  | control | 1 | rear-panel USB 2.0 interface |
 | USB MEMORY | USB-A | usb | 1 | front-panel USB port — log / copy data to a flash drive |
-| CHASSIS GROUND | screw terminal | power | 1 | chassis ground screw |
+| CHASSIS GROUND | SCREW-TERMINAL | power | 1 | chassis ground screw |
 
-**Power:** MAINS IN (AC power inlet)
+**Power:** MAINS IN (IEC-INLET)
 
 <!-- /sdk:io -->
 
